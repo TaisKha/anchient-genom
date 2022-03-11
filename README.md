@@ -1,8 +1,9 @@
 # anchient-genom
- На вход программе подается рефересный геном, на выходе - риды с ошибками секвенирования.
- Файл generate_rf нужен, чтобы сгенерировать начальный случайный референсный геном.
- В файл main можно подавать параметры (консольный интерфейс с использованием библиотеки argparse)
- 1. Минимальная длина рида ***-m***
- 2. Максимальная длина рида ***-M***
- 3. Error rate/ ошибка секвенирования ***-e***
- 4. Количество ридов ***-n***
+ The program inputs the reference genome and outputs reads with sequencing errors.
+ The generate_rf file is used to generate an initial random reference genome.
+ Parameters can be fed to the main file (console interface using argparse library)
+
+ 1. Minimal length of a read ***-m***
+ 2. Maximal length of a read ***-M***
+ 3. Error rate ***-e***
+ 4. Number of reads ***-n***
