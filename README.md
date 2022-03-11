@@ -1,5 +1,5 @@
 # anchient-genom
-This is ancient genome simulator.
+This is simulator of genome reading.
  The program inputs the reference genome and outputs reads with sequencing errors.
  The generate_rf file is used to generate an initial random reference genome.
  Parameters can be fed to the main file (console interface using argparse library)
